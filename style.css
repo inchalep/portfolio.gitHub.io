@@ -13,10 +13,8 @@ body{
     width: 96%;
     height: 95%;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
 }
 .clip_path{
     width: 100%;
